@@ -1,16 +1,16 @@
-BFG Repo-Cleaner [![Build Status](https://travis-ci.com/rtyley/bfg-repo-cleaner.svg?branch=master)](https://travis-ci.com/rtyley/bfg-repo-cleaner)
+BFG Repo-نظف [[حالة البناء](https://travis-ci.com/rtyley/bfg-repo-cleaner.svg?branch=master)] (https://travis-ci.com/rtyley/bfg-repo-أنظف)
 ================
 
-_Removes large or troublesome blobs like git-filter-branch does, but faster - and written in Scala_ - [Fund the BFG](https://j.mp/fund-bfg)
+_إزالة الشلل الكبيرة أو المزعجة مثل فرع الترشيح، ولكن أسرع - وكتب في اسكولا_   -   [صندوق صندوق صندوق الخدمات المالية](https://j.mp/fund-bfg)
 
 ```
-$ bfg --strip-blobs-bigger-than 1M --replace-text banned.txt repo.git
+$ bfg-strip-blobs-أكبر-من 1M-استبدال-النص محظور.txrepo.git.
 ```
 
-The BFG is a simpler, faster ([10 - 720x](https://docs.google.com/spreadsheet/ccc?key=0AsR1d5Zpes8HdER3VGU1a3dOcmVHMmtzT2dsS2xNenc) faster)
-alternative to `git-filter-branch` for cleansing bad data out of your Git repository:
+الـ (بي جي) أبسط وأسرع[10-720x](https://docs.google.com/spreadsheet/ccc?key=0AsR1d5Zpes8HdER3VGU1a3dOcmVHMmtzT2dsS2xNenc)    أسرع)  
+  بديل عن    `فرع الترشيح`   لتطهير البيانات السيئة من مستوديك في غيت: 
 
-* Removing **Crazy Big Files**
-* Removing **Passwords, Credentials** & other **Private data**
+*   إزالة   **ملفات كبيرة مجنونة**
+*   إزالة   **كلمات السر، وثائق التفويض**   & أخرى   **البيانات الخاصة**
 
-Main documentation for The BFG is here : **https://rtyley.github.io/bfg-repo-cleaner/**
+ الوثائق الرئيسية لهيئة الإذاعة البريطانية هنا:   **https://rtyley.github.io/bfg-repo-cleaner/**
